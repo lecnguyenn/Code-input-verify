@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import InputCode from './components/InputCode';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <InputCode />
   </React.StrictMode>,
   document.getElementById('root')
 );
